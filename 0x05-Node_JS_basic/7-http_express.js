@@ -6,7 +6,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   res.set('Content-Type', 'text/plain');
-  res.send('Hello Holberton School!');
+  res.status(200).send('Hello Holberton School!');
 });
 
 app.get('/students', (req, res) => {
