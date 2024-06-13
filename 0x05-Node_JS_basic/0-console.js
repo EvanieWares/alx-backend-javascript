@@ -1,4 +1,3 @@
-
 /**
  * This function displays a message to the STDOUT.
  *
