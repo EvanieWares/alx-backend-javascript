@@ -5,6 +5,8 @@
  * @param {String} msg - The message to be displayed
  * @author Chisomo Psyelera <https://github.com/EvanieWares>
  */
-const displayMessage = (msg) => process.stdout.write(msg + '\n');
+const displayMessage = (msg) => {
+  console.log(msg);
+};
 
 module.exports = displayMessage;
